@@ -1,0 +1,127 @@
+/*css Datei für Alterpyramide*/
+
+* { font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.see {
+  stroke: lightblue;
+  fill: lightblue;
+}
+
+.title {
+  font-weight: bold;
+  fill: tomato;
+}
+
+
+.wind {
+	fill: red;
+}
+.legende {
+	font-size: 12px;
+}
+
+
+.grid .tick {
+    stroke: lightgrey;
+    shape-rendering: crispEdges;
+    stroke-width: 0.5;
+}
+
+.tick text {
+    stroke: none;
+    font-size: 10px;
+    fill: dimgrey;
+}
+.grid .tick text {
+    stroke: none;
+    font-size: 8px;
+    fill: dimgrey;
+}
+
+.grid path {
+    stroke-width: 0;
+    stroke: dimgrey;
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
+
+.tick {
+    fill: grey;
+}
+
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #111;
+  stroke-width: 0.5;
+  opacity: 0.5;
+  shape-rendering: geometricPrecision;
+}
+
+
+.map {
+  padding-top: 60px;
+}
+/*button */
+div.controlBar {
+  padding-bottom: 20px;
+   position:absolute; 
+}
+
+ul
+ {
+  list-style-type: none;
+}
+
+.control li { 
+    background: none repeat scroll 0 0 whitesmoke; 
+    border-bottom: 1px solid #CCCCCC; 
+    border-left: 1px solid #CCCCCC; 
+    border-top: 1px solid #CCCCCC; 
+    color: #444444; 
+    width: 200px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer; 
+    float: left; 
+    margin: 0;
+    padding: 3px 4px; 
+} 
+
+li.zus2 {
+    border-left: none;
+    color: white;
+}
+
+li.zus3 {
+    border-left: none;
+    color: white;
+}
+
+.control li:first-of-type { 
+    border-radius: 4px 0 0 4px; 
+} 
+.control li:last-of-type { 
+    border-radius: 0 4px 4px 0; 
+    border-right: 1px solid #CCCCCC; 
+} 
+.control li.selected { 
+    background: none repeat scroll 0 0 #ccebf9; 
+    border-color: #AAAAAA; 
+    font-weight: bold;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2) inset; 
+    color: #000000; 
+} 
+
+.active{
+
+font-weight: bold;
+
+}
+
+
+
